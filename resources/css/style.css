@@ -547,7 +547,7 @@ td p {
 }
 
 .beforeafter td {
-  padding: 1%;
+  padding: 0.5%;
   min-width: 200px;
   vertical-align: top;
 }
@@ -557,7 +557,7 @@ td p {
 }
 
 .CSC td {
-  padding: 1%;
+padding: 0.5%;
 }
 
 .grid {
@@ -565,7 +565,7 @@ td p {
 }
 
 .grid td {
-  padding: 1%;
+  padding: 0.5%;
   min-width: 200px;
 }
 
@@ -615,11 +615,16 @@ text-align: left;
 
 .htmlexample p {
   font-size: 20px;
+  text-align: left;
 }
 
 .htmlexample {
   width: 100%;
   clear:both;
+}
+
+.htmlexample td {
+  vertical-align: top;
 }
 
 .examples {
