@@ -591,18 +591,22 @@ text-align: left;
 }
 
 .top {
-  display: flex;
+  clear: both;
+  width: 100%;
 }
 
 .video3 {
-  float: left;
   margin-right: 15px;
-  width: 30%;
+  vertical-align: top;
 }
 
 .video1 {
   float: left;
-  width: 70%;
+  vertical-align: top;
+}
+
+.top p {
+  text-align: left;
 }
 
 
