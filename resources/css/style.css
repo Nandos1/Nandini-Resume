@@ -572,8 +572,13 @@ padding: 0.5%;
 
 /* Videos */
 
-.description {
+.videos {
+  width: 100%;
+}
+
+.video2 {
   margin-top: 20px;
+  width: 100%;
 }
 
 .description td {
@@ -601,6 +606,7 @@ text-align: left;
 
 .video1 {
   vertical-align: top;
+  padding-left: 20px;
 }
 
 .top p {
