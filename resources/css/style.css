@@ -133,7 +133,6 @@ header {
   border-left-style: solid;
   border-left-color: #77A6F7;
   border-left-width: 15px;
-  border-left
   transition: border-left-width 0.1s;
 }
 
@@ -165,10 +164,16 @@ header {
 }
 
 .box {
-  color: #77A6F7;
-  font-style: normal;
+  border-left-style: solid;
+  border-left-color: #77A6F7;
+  border-left-width: 15px;
+  padding-left: 20px;
+  transition: border-left-width 0.1s;
 }
 
+.box:hover {
+  border-left-width: 25px;
+}
 
 /* About page */
 
@@ -544,6 +549,7 @@ td p {
 .beforeafter td {
   padding: 1%;
   min-width: 200px;
+  vertical-align: top;
 }
 
 .CSC {
@@ -567,20 +573,20 @@ td p {
 /* Videos */
 
 .description {
-  display: flex;
   margin-top: 20px;
 }
 
+.description td {
+  vertical-align: top;
+}
+
 .description p {
-float: left;
-width: 50%;
 margin-right: 25px;
 font-size: 20px;
-
+text-align: left;
 }
 
 .description img {
-  float: left;
   width: 400px;
 }
 
@@ -624,4 +630,5 @@ font-size: 20px;
 .examples td {
   padding: 1%;
   min-width: 320px;
+  vertical-align: top;
 }
