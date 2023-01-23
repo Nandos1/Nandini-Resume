@@ -602,21 +602,18 @@ font-size: 20px;
 
 /* Website page */
 
-.htmlexample {
-  display: flex;
-}
-
 .htmlexample .image {
-  float: left;
-  width: 60%;
-  height: auto;
   min-width: 200px;
   margin-right: 20px;
 }
 
 .htmlexample p {
-  width: 40%;
   font-size: 20px;
+}
+
+.htmlexample {
+  width: 100%;
+  clear:both;
 }
 
 .examples {
