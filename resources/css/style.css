@@ -526,8 +526,10 @@ font-size: 20px;
   display: flex;
 }
 
-.htmlexample img {
+.htmlexample .image {
+  float: left;
   width: 60%;
+  height: auto;
   min-width: 200px;
   margin-right: 20px;
 }
