@@ -608,6 +608,7 @@ font-size: 20px;
 }
 
 .examples img {
+  float: left;
   width: 50%;
   padding: 20px;
 }
