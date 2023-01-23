@@ -213,27 +213,35 @@ header {
   font-weight: 300;
 }
 
+.workplaces {
+  clear: both;
+  width: 100%;
+}
+
 .workplaces p {
   font-weight: 100;
   line-height: 1.25;
 }
 
-.workplaces .row {
+.row1, .row2 {
+  clear: both;
   display: flex;
   float: left;
   width: 100%;
 }
 
-.workplaces .stack {
+.row2left {
   width: 50%;
-  margin-bottom: 10px;
 }
 
-.workplaces .tableft {
+.row2right {
   width: 50%;
+}
+
+.row2 .tableft {
   min-width: 300px;
   float: left;
-  vertical-align: middle;
+  
 
   padding: 5px 15px 20px 25px;
   margin-right: 10px;
@@ -247,15 +255,12 @@ header {
   transition: border 0.1s;
 }
 
-.workplaces .tabright {
-  width: 50%;
+.row2 .tabright {
   min-width: 300px;
-  float: right;
 
   text-align: right;
   padding: 10px 25px 20px 15px;
   margin-bottom: 20px;
-  vertical-align: middle;
 
   border-right-style: solid;
   border-right-width: 2px;
@@ -265,11 +270,55 @@ header {
   transition: border 0.1s;
 }
 
-.workplaces .tabright:hover {
+
+.row1 .tableft {
+  width: 50%;
+  min-width: 300px;
+  float: left;
+
+
+  padding: 5px 15px 20px 25px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-left-color: #77A6F7;
+  background-color: white;
+
+  transition: border 0.1s;
+}
+
+.row1 .tabright {
+  width: 50%;
+  min-width: 300px;
+  float: left;
+
+  text-align: right;
+  padding: 10px 25px 20px 15px;
+  margin-bottom: 20px;
+
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #77A6F7;
+  background-color: white;
+
+  transition: border 0.1s;
+}
+
+.row1 .tabright:hover {
   border-right-width: 8px;
 }
 
-.workplaces .tableft:hover {
+.row1 .tableft:hover {
+  border-left-width: 8px;
+}
+
+.row2 .tabright:hover {
+  border-right-width: 8px;
+}
+
+.row2 .tableft:hover {
   border-left-width: 8px;
 }
 
