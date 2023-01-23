@@ -543,22 +543,24 @@ td p {
 
 .beforeafter td {
   padding: 1%;
-  min-width: 320px;
+  min-width: 200px;
+}
+
+.CSC {
+  width: 100%;
 }
 
 .CSC td {
   padding: 1%;
-  min-width: 200px;
+}
+
+.grid {
+  width: 100%;
 }
 
 .grid td {
   padding: 1%;
-  min-width: 320px;
-}
-
-
-.CSC {
-  width: 100%;
+  min-width: 200px;
 }
 
 
@@ -578,7 +580,7 @@ font-size: 20px;
 }
 
 .description img {
-  float: right;
+  float: left;
   width: 400px;
 }
 
@@ -593,7 +595,7 @@ font-size: 20px;
 }
 
 .video1 {
-  float: right;
+  float: left;
   width: 70%;
 }
 
