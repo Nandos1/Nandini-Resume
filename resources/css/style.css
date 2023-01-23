@@ -541,6 +541,21 @@ td p {
   display: flex;
 }
 
+.beforeafter td {
+  padding: 1%;
+  min-width: 320px;
+}
+
+.CSC td {
+  padding: 1%;
+  min-width: 200px;
+}
+
+.grid td {
+  padding: 1%;
+  min-width: 320px;
+}
+
 
 .CSC {
   width: 100%;
@@ -604,11 +619,10 @@ font-size: 20px;
 
 .examples {
   width: 100%;
-  display: flex;
+  clear:both;
 }
 
-.examples img {
-  float: left;
-  width: 50%;
-  padding: 20px;
+.examples td {
+  padding: 1%;
+  min-width: 320px;
 }
